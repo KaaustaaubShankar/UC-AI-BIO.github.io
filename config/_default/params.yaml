@@ -46,8 +46,9 @@ header:
 # Site footer
 
 footer:
+  show_powered_by: false
   copyright:
-    notice: ''
+    notice: '© {year} AI Bio Lab'
     license:
       enable: false
       allow_derivatives: false
