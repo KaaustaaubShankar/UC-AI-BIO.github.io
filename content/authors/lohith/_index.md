@@ -13,6 +13,9 @@ authors:
 # Is this the primary user of the site?
 superuser: false
 
+# Highlight the author in lists?
+highlight_name: true
+
 # Role/position
 role: Researcher in Explainable AI & Cybersecurity
 
@@ -76,7 +79,7 @@ email: 'pentapls@mail.uc.edu'
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Ph.D. Students
   # - Visitors
 ---
 
@@ -96,4 +99,3 @@ adversarial conditions while still deferring control to humans when appropriate.
 His overarching goal is to build AI systems that detect and respond effectively to security 
 threats while also justifying their reasoning — earning human trust in real-world 
 deployments.
-

@@ -103,7 +103,9 @@ features:
   map:
     provider: 'mapnik'
     api_key: ''
-    zoom: 15
+    zoom: 25
+  publications:
+    relate_to_authors: true
 
 # Extensions
 
@@ -118,4 +120,4 @@ extensions:
 
 publications:
   date_format: January 2006
-  citation_style: apa
+  citation_style: ieee

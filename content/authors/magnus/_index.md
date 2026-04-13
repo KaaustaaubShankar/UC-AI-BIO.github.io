@@ -23,7 +23,7 @@ organizations:
 
 # Short bio (displayed in user profile at end of posts)
 bio: >
-  Magnus is a Graduate Student working on fuzzy-logic-based AI, control systems,
+  Magnus is a PhD candidate working on fuzzy-logic-based AI, control systems,
   and safety assurance for complex dynamical systems.
 
 interests:

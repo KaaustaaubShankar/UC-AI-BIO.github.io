@@ -7,3 +7,36 @@
 .cta-group {
   justify-content: center;
 }
+
+/* --- SLED Lab Publication List Styling --- */
+
+// Removes the extra padding and centers the list
+.universal-wrapper {
+  padding-top: 2rem !important;
+}
+
+// Styles each individual paper entry
+.pub-list-item {
+  margin-bottom: 1.5rem !important;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #f2f2f2; // The subtle line between papers
+  
+  .article-title {
+    font-size: 1.15rem !important;
+    font-weight: 600 !important; // Bold titles like SLED
+    color: #222 !important;
+    margin-bottom: 0.25rem;
+    
+    a {
+      color: inherit;
+      &:hover { color: #cc0000; } // UC Red hover effect
+    }
+  }
+
+  // Author and Journal text
+  .article-metadata {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+}
